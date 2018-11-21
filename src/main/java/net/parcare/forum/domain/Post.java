@@ -2,10 +2,7 @@ package main.java.net.parcare.forum.domain;
 
 import java.util.Date;
 
-/**
- * @author ttritean
- * @since 11/20/2018
- */
+
 public class Post {
 
     private String subject;

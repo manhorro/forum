@@ -3,10 +3,7 @@ package main.java.net.parcare.forum.domain;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author ttritean
- * @since 11/20/2018
- */
+
 public class Forum {
 
     private String name;

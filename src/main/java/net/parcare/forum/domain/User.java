@@ -4,10 +4,7 @@ import com.sun.istack.internal.Nullable;
 
 import javax.persistence.*;
 
-/**
- * @author ttritean
- * @since 11/20/2018
- */
+
 @Entity
 @Table(name="users_forum")
 public class User {

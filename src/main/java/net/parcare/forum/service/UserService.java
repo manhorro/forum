@@ -8,10 +8,6 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-/**
- * @author ttritean
- * @since 11/20/2018
- */
 
 @Service
 public class UserService {
