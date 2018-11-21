@@ -1,9 +1,8 @@
-package org.fasttrackit.forum;
+package test.java.net.parcare.forum;
 
-import org.fasttrackit.forum.domain.Shop;
-import org.fasttrackit.forum.domain.User;
-import org.fasttrackit.forum.service.ShopService;
-import org.fasttrackit.forum.service.UserService;
+import main.java.net.parcare.forum.ForumApplication;
+import main.java.net.parcare.forum.domain.User;
+import main.java.net.parcare.forum.service.UserService;
 import org.hamcrest.Matchers;
 import org.junit.Assert;
 import org.junit.Test;

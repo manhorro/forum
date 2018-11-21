@@ -1,14 +1,12 @@
-package org.fasttrackit.forum.service;
+package main.java.net.parcare.forum.service;
 
-import org.fasttrackit.forum.domain.User;
-import org.fasttrackit.forum.persistence.UserRepository;
+import main.java.net.parcare.forum.domain.User;
+import main.java.net.parcare.forum.persistence.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 /**
  * @author ttritean

@@ -1,4 +1,4 @@
-package org.fasttrackit.forum.domain;
+package main.java.net.parcare.forum.domain;
 
 import com.sun.istack.internal.Nullable;
 

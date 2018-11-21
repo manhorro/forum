@@ -1,4 +1,4 @@
-package org.fasttrackit.forum.domain;
+package main.java.net.parcare.forum.domain;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,7 @@ public class Forum {
 
     private String name;
 
-    private List<Post> posts = new ArrayList<>();
+    private List<main.java.net.parcare.forum.domain.Post> posts = new ArrayList<>();
 
 
     public String getName() {
@@ -23,7 +23,7 @@ public class Forum {
     }
 
 
-    public List<Post> getPosts() {
+    public List<main.java.net.parcare.forum.domain.Post> getPosts() {
         return posts;
     }
 

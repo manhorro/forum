@@ -1,4 +1,4 @@
-package org.fasttrackit.forum;
+package main.java.net.parcare.forum;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

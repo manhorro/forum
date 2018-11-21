@@ -1,4 +1,4 @@
-package org.fasttrackit.forum.domain;
+package main.java.net.parcare.forum.domain;
 
 import java.util.Date;
 
@@ -12,7 +12,7 @@ public class Post {
 
     private Date date;
 
-    private User author;
+    private main.java.net.parcare.forum.domain.User author;
 
 
     private String content;
@@ -34,7 +34,7 @@ public class Post {
         this.date = date;
     }
 
-    public User getAuthor() {
+    public main.java.net.parcare.forum.domain.User getAuthor() {
         return author;
     }
 

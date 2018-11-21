@@ -1,8 +1,7 @@
-package org.fasttrackit.forum.persistence;
+package main.java.net.parcare.forum.persistence;
 
-import org.fasttrackit.forum.domain.User;
+import main.java.net.parcare.forum.domain.User;
 import org.springframework.data.repository.PagingAndSortingRepository;
-import org.springframework.stereotype.Repository;
 
 /**
  * @author ttritean

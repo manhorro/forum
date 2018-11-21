@@ -1,8 +1,7 @@
-package org.fasttrackit.forum.web;
+package main.java.net.parcare.forum.web;
 
-import org.fasttrackit.forum.domain.Shop;
-import org.fasttrackit.forum.domain.User;
-import org.fasttrackit.forum.service.UserService;
+import main.java.net.parcare.forum.domain.User;
+import main.java.net.parcare.forum.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

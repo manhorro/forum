@@ -1,4 +1,4 @@
-package org.fasttrackit.forum.exception;
+package main.java.net.parcare.forum.exception;
 
 public class NotFoundException extends RuntimeException {
 
