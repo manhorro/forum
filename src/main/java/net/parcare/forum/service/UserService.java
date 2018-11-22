@@ -20,19 +20,19 @@ public class UserService {
         if (user.getUsername() == null) {
             throw new IllegalArgumentException("Username can not be null");
         }
-        if (user.getFirstName() == null){
+        if (user.getFirstName() == null) {
             throw new IllegalArgumentException("First name can nor be null");
         }
         if (user.getLastName() == null) {
             throw new IllegalArgumentException("Last name can not be null");
         }
-        if (user.getAge() <= 18 && user.getAge() > 80){
+        if (user.getAge() < 18 || user.getAge() > 80) {
             throw new IllegalArgumentException("Your age is not proper for this site");
         }
-        if (user.getSex() == null){
-            throw new IllegalArgumentException("You must seect one option");
+        if (user.getSex() == null) {
+            throw new IllegalArgumentException("You must select one option");
         }
-        if (user.getPhone() == null){
+        if (user.getPhone() == null) {
             throw new IllegalArgumentException("Phone number can not be null");
         }
         try {
@@ -51,11 +51,16 @@ public class UserService {
 
     public User getUser(long userId) {
         //TODO - add validation, exceptions etc
+
         return userRepository.findOne(userId);
     }
 
-    public void deleteUser(long userId) {
+    public void deleteUser(long userId) throws IllegalArgumentException {
         //TODO - add validation, exceptions etc
-        userRepository.delete(userId);
+        try {
+            userRepository.delete(userRepository.findOne(userId));
+        } catch (Exception e) {
+            System.out.println("Error deleting the user:" + e);
+        }
+        System.out.println("User deleted!");
     }
-}
