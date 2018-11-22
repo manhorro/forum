@@ -1,4 +1,4 @@
-package test.java.net.parcare.forum;
+package main.java.test.java.net.parcare.forum;
 
 import main.java.net.parcare.forum.ForumApplication;
 import main.java.net.parcare.forum.domain.User;
@@ -31,9 +31,9 @@ public class UserIntegrationTest {
     public void testSave() {
 
         User user = new User();
-        user.setUsername("tania");
-        user.setFirstName("Tania");
-        user.setLastName("Tritean");
+        user.setUsername("manhorro");
+        user.setFirstName("Horatiu");
+        user.setLastName("Mandrutiu");
         userService.saveUser(user);
 
         Page<User> allUsers = userService.getAllUsers(0, 10);

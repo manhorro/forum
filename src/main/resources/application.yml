@@ -1,5 +1,5 @@
 application:
-  name: net.parcare.forum
+  name: main.java.net.parcare.forum
 
 environment:
   name: dev

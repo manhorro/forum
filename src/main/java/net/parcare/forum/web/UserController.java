@@ -1,4 +1,4 @@
-package main.java.net.parcare.forum.web;
+package net.parcare.forum.web;
 
 import main.java.net.parcare.forum.domain.User;
 import main.java.net.parcare.forum.service.UserService;

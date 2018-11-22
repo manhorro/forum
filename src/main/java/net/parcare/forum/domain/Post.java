@@ -35,7 +35,7 @@ public class Post {
         return author;
     }
 
-    public void setAuthor(User author) {
+    public void setAuthor(main.java.net.parcare.forum.domain.User author) {
         this.author = author;
     }
 

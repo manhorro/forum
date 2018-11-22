@@ -24,7 +24,7 @@ public class Forum {
         return posts;
     }
 
-    public void setPosts(List<Post> posts) {
+    public void setPosts(List<main.java.net.parcare.forum.domain.Post> posts) {
         if (posts == null) {
             throw new IllegalArgumentException("You are not allowed" +
                     " to set the list to null");
