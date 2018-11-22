@@ -1,5 +1,5 @@
 application:
-  name: org.forum.service
+  name: net.parcare.forum
 
 environment:
   name: dev
@@ -13,7 +13,7 @@ server:
 
 spring:
   application:
-    name: forum-service
+    name: parcare-forum
   jackson:
     serialization:
       write_dates_as_timestamps: false
