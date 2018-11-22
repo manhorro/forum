@@ -20,11 +20,21 @@ public class UserService {
         if (user.getUsername() == null) {
             throw new IllegalArgumentException("Username can not be null");
         }
-
+        if (user.getFirstName() == null){
+            throw new IllegalArgumentException("First name can nor be null");
+        }
         if (user.getLastName() == null) {
             throw new IllegalArgumentException("Last name can not be null");
         }
-
+        if (user.getAge() <= 18 && user.getAge() > 80){
+            throw new IllegalArgumentException("Your age is not proper for this site");
+        }
+        if (user.getSex() == null){
+            throw new IllegalArgumentException("You must seect one option");
+        }
+        if (user.getPhone() == null){
+            throw new IllegalArgumentException("Phone number can not be null");
+        }
         try {
             userRepository.save(user);
         } catch (Exception e) {

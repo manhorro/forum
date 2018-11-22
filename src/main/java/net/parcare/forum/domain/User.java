@@ -17,14 +17,12 @@ public class User {
             initialValue = 1
     )
     private long id;
-
     @Column(name="user_name",unique=true)
     private String username;
     @Column(nullable = true)
     private String firstName;
     @Column(nullable = true)
     private String lastName;
-
     @Column(nullable = true)
     private int age;
     @Column(nullable = true)
