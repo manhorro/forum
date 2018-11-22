@@ -1,4 +1,4 @@
-package main.java.net.parcare.forum.domain;
+package net.parcare.forum.domain;
 
 import com.sun.istack.internal.Nullable;
 

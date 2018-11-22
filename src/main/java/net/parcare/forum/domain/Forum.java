@@ -1,4 +1,4 @@
-package main.java.net.parcare.forum.domain;
+package net.parcare.forum.domain;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ public class Forum {
 
     private String name;
 
-    private List<main.java.net.parcare.forum.domain.Post> posts = new ArrayList<>();
+    private List<net.parcare.forum.domain.Post> posts = new ArrayList<>();
 
 
     public String getName() {
@@ -20,11 +20,11 @@ public class Forum {
     }
 
 
-    public List<main.java.net.parcare.forum.domain.Post> getPosts() {
+    public List<net.parcare.forum.domain.Post> getPosts() {
         return posts;
     }
 
-    public void setPosts(List<main.java.net.parcare.forum.domain.Post> posts) {
+    public void setPosts(List<net.parcare.forum.domain.Post> posts) {
         if (posts == null) {
             throw new IllegalArgumentException("You are not allowed" +
                     " to set the list to null");

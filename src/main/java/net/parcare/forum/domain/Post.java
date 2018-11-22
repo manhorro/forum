@@ -1,4 +1,4 @@
-package main.java.net.parcare.forum.domain;
+package net.parcare.forum.domain;
 
 import java.util.Date;
 
@@ -9,7 +9,7 @@ public class Post {
 
     private Date date;
 
-    private main.java.net.parcare.forum.domain.User author;
+    private net.parcare.forum.domain.User author;
 
 
     private String content;
@@ -31,11 +31,11 @@ public class Post {
         this.date = date;
     }
 
-    public main.java.net.parcare.forum.domain.User getAuthor() {
+    public net.parcare.forum.domain.User getAuthor() {
         return author;
     }
 
-    public void setAuthor(main.java.net.parcare.forum.domain.User author) {
+    public void setAuthor(net.parcare.forum.domain.User author) {
         this.author = author;
     }
 

@@ -1,7 +1,7 @@
 package net.parcare.forum.web;
 
-import main.java.net.parcare.forum.domain.User;
-import main.java.net.parcare.forum.service.UserService;
+import net.parcare.forum.domain.User;
+import net.parcare.forum.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
-package main.java.net.parcare.forum.service;
+package net.parcare.forum.service;
 
-import main.java.net.parcare.forum.domain.User;
+import net.parcare.forum.domain.User;
 import main.java.net.parcare.forum.persistence.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

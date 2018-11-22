@@ -1,8 +1,8 @@
-package main.java.test.java.net.parcare.forum;
+package net.parcare.forum;
 
-import main.java.net.parcare.forum.ForumApplication;
-import main.java.net.parcare.forum.domain.User;
-import main.java.net.parcare.forum.service.UserService;
+
+import net.parcare.forum.domain.User;
+import net.parcare.forum.service.UserService;
 import org.hamcrest.Matchers;
 import org.junit.Assert;
 import org.junit.Test;

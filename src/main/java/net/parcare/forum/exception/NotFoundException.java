@@ -1,4 +1,4 @@
-package main.java.net.parcare.forum.exception;
+package net.parcare.forum.exception;
 
 public class NotFoundException extends RuntimeException {
 
