@@ -1,6 +1,5 @@
 package net.parcare.forum;
 
-
 import net.parcare.forum.domain.User;
 import net.parcare.forum.service.UserService;
 import org.hamcrest.Matchers;

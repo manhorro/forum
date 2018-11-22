@@ -1,7 +1,7 @@
 package net.parcare.forum.service;
 
 import net.parcare.forum.domain.User;
-import main.java.net.parcare.forum.persistence.UserRepository;
+import net.parcare.forum.persistence.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -28,7 +28,7 @@ public class UserService {
         try {
             userRepository.save(user);
         } catch (Exception e) {
-            System.out.println("Error when saving user " + e);
+            System.out.println("Error when saving user" + e);
         }
     }
 

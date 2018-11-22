@@ -1,4 +1,4 @@
-package main.java.net.parcare.forum.persistence;
+package net.parcare.forum.persistence;
 
 import net.parcare.forum.domain.User;
 import org.springframework.data.repository.PagingAndSortingRepository;
