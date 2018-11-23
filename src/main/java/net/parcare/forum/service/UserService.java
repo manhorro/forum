@@ -51,16 +51,23 @@ public class UserService {
 
     public User getUser(long userId) {
         //TODO - add validation, exceptions etc
-
-        return userRepository.findOne(userId);
+        try {
+            if (userRepository.findOne(userId) != null) {
+                return userRepository.findOne(userId);
+            }
+        } catch (Exception e) {
+            System.out.println("User does  not exist!" + e);
+        }
     }
 
     public void deleteUser(long userId) throws IllegalArgumentException {
         //TODO - add validation, exceptions etc
         try {
-            userRepository.delete(userRepository.findOne(userId));
+            if (userRepository.findOne(userId) != null) {
+                userRepository.delete(userRepository.findOne(userId));
+                System.out.println("User deleted!");
+            }
         } catch (Exception e) {
-            System.out.println("Error deleting the user:" + e);
+            System.out.println("Error deleting the user!" + e);
         }
-        System.out.println("User deleted!");
     }
